@@ -55,19 +55,19 @@ La aplicación permite predecir la lluvia a partir de datos históricos y la fec
 1. **Carga del modelo y datos**: Se cargan el modelo entrenado, el escalador y las características necesarias.
 2. **Selección de fecha o rango de fechas**:
    - Predicción para un día específico.
-        · El usuario ingresa una fecha en formato YYYY-MM-DD.
-        · La aplicación busca datos históricos similares (mismo mes y día).
-        · Muestra la predicción (lluvia/no lluvia) y la probabilidad.
+     - El usuario ingresa una fecha en formato YYYY-MM-DD.
+     - La aplicación busca datos históricos similares (mismo mes y día).
+     - Muestra la predicción (lluvia/no lluvia) y la probabilidad.
    - Análisis de un rango de fechas.
-        · El usuario ingresa una fecha de inicio y una fecha de fin.
-        · La aplicación genera predicciones para cada día en ese rango.
-        · Muestra una tabla con los resultados.
+     - El usuario ingresa una fecha de inicio y una fecha de fin.
+     - La aplicación genera predicciones para cada día en ese rango.
+     - Muestra una tabla con los resultados.
    - Análisis mensual.
-        · El usuario ingresa un año y un mes.
-        · La aplicación genera predicciones para todos los días de ese mes.
-        · Muestra un resumen con estadísticas como:
-             - Días con pronóstico de lluvia.
-             - Probabilidad media, máxima y mínima.
+     - El usuario ingresa un año y un mes.
+     - La aplicación genera predicciones para todos los días de ese mes.
+     - Muestra un resumen con estadísticas como:
+       - Días con pronóstico de lluvia.
+       - Probabilidad media, máxima y mínima.
 3. **Preparación de los datos**:
    - Se extraen datos históricos de fechas similares.
    - Se generan las mismas características utilizadas en el entrenamiento.
