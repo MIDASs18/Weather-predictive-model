@@ -79,3 +79,25 @@ La aplicación permite predecir la lluvia a partir de datos históricos y la fec
 
 El usuario puede interactuar con la aplicación desde la línea de comandos proporcionando una fecha o un rango de fechas. También se incluye una opción interactiva para facilitar el uso.
 
+### Cómo usar la aplicación:
+
+**Método 1: Interfaz interactiva**
+```
+python app.py
+```
+
+**Método 2: Línea de comandos**
+```
+# Para una fecha específica:
+python app.py --fecha 2023-06-15
+
+# Para un rango de fechas:
+python app.py --rango 2023-06-01 2023-06-15
+
+# Para un análisis mensual:
+python app.py --mes 2023 6
+
+# Especificar archivo de datos diferente:
+python app.py --fecha 2023-06-15 --datos mi_archivo.csv
+```
+
