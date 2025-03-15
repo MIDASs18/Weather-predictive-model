@@ -75,7 +75,7 @@ La aplicación permite predecir la lluvia a partir de datos históricos y la fec
 4. **Predicción de probabilidad de lluvia**:
    - Se obtiene la predicción (`Lluvia` o `No lluvia`).
    - Se calcula la probabilidad de lluvia en porcentaje.
-   - Se genera una interpretación de la probabilidad (`Muy baja`, `Baja`, `Moderada`, etc.).
+   - Se genera una interpretación de la probabilidad (`Muy baja`, `Baja`, `Moderada`, `Alta`, `Muy alta`).
 
 El usuario puede interactuar con la aplicación desde la línea de comandos proporcionando una fecha o un rango de fechas. También se incluye una opción interactiva para facilitar el uso.
 
